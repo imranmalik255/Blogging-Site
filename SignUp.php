@@ -53,8 +53,8 @@ if (isset($_POST['signup']) and isset($_FILES['image'])) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'mohammedimranrafique@gmail.com';
-        $mail->Password   = 'toboxtdbrpteeqxb';
+        $mail->Username   = 'enter your email';
+        $mail->Password   = 'enter your passkey';
         $mail->SMTPSecure = 'ssl';
         $mail->Port       = 465;
 
